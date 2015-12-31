@@ -31,7 +31,7 @@ selfie.submit(function(e){
 
 
 	$.post(
-		'http://tiyfe.herokuapp.com/deathtoselfie',
+		'http://tiyfe.herokuapp.com/collections/deathtoselfie',
 		{
 			photo: newUrl,
 			caption: newCaption

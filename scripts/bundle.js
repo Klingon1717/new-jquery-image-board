@@ -26,7 +26,7 @@ $(document).ready(function () {
 		var newUrl = url.val();
 		var newCaption = cap.val();
 
-		$.post('http://tiyfe.herokuapp.com/deathtoselfie', {
+		$.post('http://tiyfe.herokuapp.com/collections/deathtoselfie', {
 			photo: newUrl,
 			caption: newCaption
 		}, function (response) {
